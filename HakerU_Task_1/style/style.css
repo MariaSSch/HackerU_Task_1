@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    background-color: #E5E5E5;
+    margin: 0 50px;
+}
+
+body>div {
+    margin-bottom: 40px;
+    background-color: white;
+}
+
+nav {
+    position: sticky; 
+    top: 0;
+    display: flex;
+    background: #C4C4C4;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 3%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 31%;
+}
+
+.menu .about_us {
+    border: 5px solid #18A301;
+    padding: 17px 34px;
+    position: relative;
+}
+
+.menu .coursor {
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.img_container {
+    padding: 8%;
+}
+
+ul {
+    margin-bottom: 43px;
+    display: flex;
+    justify-content: center;
+}
+li {
+    color: #34495E;
+    width: 15px;
+    height: 15px;
+}
+
+p.paragraph {
+    margin-bottom: 25px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.shadow {
+    box-shadow: 5px 5px 10px #000000;
+}
+.card {
+    width: 270px;
+    height: 354px;
+    background-color: #34495E;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #ECF0F1;
+}
+
+p.quote {
+    margin: 0 6%;
+}
+
+p.author {
+    margin-left: 40%;
+}
+
+.contact_us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact_info {
+    margin: 0 auto;
+}
+
+.contact_info p {
+    text-align: center;
+}
+
+.contact_info .decor {
+    text-decoration: underline;
+}
